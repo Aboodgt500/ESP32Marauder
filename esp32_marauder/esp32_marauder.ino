@@ -484,6 +484,11 @@ void loop()
     led_obj.main(currentTime);
   #endif
 
+    // A.A.G OS heartbeat (non-blocking)
+  #ifdef ENABLE_AAG_OVERLAY
+    aag_loop();
+  #endif
+
   #ifdef HAS_SCREEN
     delay(1);
   #else
