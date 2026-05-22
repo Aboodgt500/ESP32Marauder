@@ -405,6 +405,11 @@ void setup()
     #endif
     menu_function_obj.RunSetup();
   #endif
+    // A.A.G OS Overlay System initialization
+  #ifdef ENABLE_AAG_OVERLAY
+    aag_init();
+    aag_init_sandbox();
+  #endif
 
   /*char ssidBuf[64] = {0};  // or prefill with existing SSID
   if (keyboardInput(ssidBuf, sizeof(ssidBuf), "Enter SSID")) {
