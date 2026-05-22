@@ -6,6 +6,10 @@ https://www.online-utility.org/image/convert/to/XBM
 */
 
 #include "configs.h"
+// A.A.G OS Overlay System
+#ifdef ENABLE_AAG_OVERLAY
+  #include "AAG_System_Wrapper.h"
+#endif
 
 #ifndef HAS_SCREEN
   #define MenuFunctions_h
