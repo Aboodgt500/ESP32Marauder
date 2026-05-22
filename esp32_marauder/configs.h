@@ -286,6 +286,7 @@
     #define HAS_TEMP_SENSOR
     #define HAS_GPS
     #define HAS_CYD_TOUCH
+    #define ENABLE_AAG_OVERLAY
     //#define HAS_NIMBLE_2
   #endif
 
@@ -306,6 +307,7 @@
     #define HAS_TEMP_SENSOR
     #define HAS_GPS
     #define HAS_CYD_TOUCH
+    #define ENABLE_AAG_OVERLAY
     #define HAS_CYD_PORTRAIT
     #define HAS_NIMBLE_2
     #define HAS_IDF_3
